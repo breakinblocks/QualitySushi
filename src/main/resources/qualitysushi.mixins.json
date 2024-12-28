@@ -5,10 +5,16 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "qualitysushi.refmap.json",
   "mixins": [
+    "RollerCraftingMixin",
+    "CuttingBoardMixin",
+    "CoolingBoxMixin",
+    "RiceCookerMixin",
+    "FermentingBarrelMixin"
   ],
   "client": [
   ],
   "injectors": {
-    "defaultRequire": 1
+    "defaultRequire": 1,
+    "debug": true
   }
 }

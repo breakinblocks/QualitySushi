@@ -27,4 +27,3 @@ This mod is distributed under the MIT License. Refer to the LICENSE file for mor
 
 ---
 
-Enjoy crafting high-quality sushi with this compatibility mod!

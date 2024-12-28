@@ -10,6 +10,9 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -112,6 +115,10 @@ dependencies {
 
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")
+    implementation "curse.maven:sushigocrafting-452500:5791254"
+    implementation "curse.maven:titanium-287342:5889342"
+    implementation "curse.maven:patchouli-306770:5683901"
+    implementation "curse.maven:qualityfood-973932:5912165"
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
@@ -155,6 +162,7 @@ publishing {
         maven {
             url "file://${project.projectDir}/repo"
         }
+
     }
 }
 
